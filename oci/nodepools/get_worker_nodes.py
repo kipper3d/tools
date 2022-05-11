@@ -87,7 +87,7 @@ def set_env(env_data):
     """ Sets environment for proxy if needed.
 
     Args:
-        set_env (str): Proxy details.
+        env_data (str): Proxy details.
     """
     if env_data is None:
         pass
